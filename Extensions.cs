@@ -37,12 +37,12 @@ public static class Extensions
 		InputOptions = new InputOptions
 		{
 			LabelClasses = "form-label",
-            LabelErrorClasses = "text-danger",
-            LabelValidClasses = "text-success",
-            InputClasses = "form-control",
-            InputValidClasses = "is-valid",
-            InputErrorClasses = "is-invalid",
-            ErrorWrapperClasses = "text-danger list-unstyled"
+			LabelErrorClasses = "text-danger",
+			LabelValidClasses = "text-success",
+			InputClasses = "form-control",
+			InputValidClasses = "is-valid",
+			InputErrorClasses = "is-invalid",
+			ErrorWrapperClasses = "text-danger list-unstyled"
 		},
 		CheckInputOptions = new CheckInputOptions
 		{
