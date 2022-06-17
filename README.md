@@ -44,10 +44,10 @@ builder.Services.AddRazorPages();
 builder.Services.UseRazorFormsWithBootstrap(o => 
 {
     o.InputOptions.ComponentWrapperClasses = "mb-3";
-	o.CheckInputGroupOptions.ComponentWrapperClasses = "mb-3";
-	o.RadioInputGroupOptions.ComponentWrapperClasses = "mb-3";
-	o.TextAreaOptions.ComponentWrapperClasses = "mb-3";
-	o.SelectOptions.ComponentWrapperClasses = "mb-3";
+    o.CheckInputGroupOptions.ComponentWrapperClasses = "mb-3";
+    o.RadioInputGroupOptions.ComponentWrapperClasses = "mb-3";
+    o.TextAreaOptions.ComponentWrapperClasses = "mb-3";
+    o.SelectOptions.ComponentWrapperClasses = "mb-3";
 });
 ```
 
