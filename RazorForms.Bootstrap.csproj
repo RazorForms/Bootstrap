@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>Microsoft.Extensions.DependencyInjection</RootNamespace>
+		<Nullable>enable</Nullable>
+
+		<PackageId>RazorForms.Bootstrap</PackageId>
+		<Title>RazorForms.Bootstrap</Title>
+		<PackageVersion>1.0.0-beta1</PackageVersion>
+		<Authors>Christian LeVesque</Authors>
+		<Description>A slim extension of RazorForms that provides customizable support for Bootstrap's CSS classes</Description>
+		<Copyright>Copyright Christian LeVesque 2022</Copyright>
+		<PackageProjectUrl>https://www.razorforms.com</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/RazorForms/Bootstrap</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>razor page form ui component bootstrap</PackageTags>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="RazorForms" Version="1.*-*" PrivateAssets="all" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+
+</Project>
