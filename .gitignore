@@ -1,0 +1,12 @@
+# IDE
+.idea/
+.vs/
+.vscode/
+*.DotSettings*
+
+[Bb]in/
+[Oo]bj/
+[Pp]ackages
+*.exe
+*.pdb
+*.nupkg
